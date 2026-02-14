@@ -4,7 +4,7 @@
 Local + cloud LLMs (BYOK). Archestra & Claude Desktop ready.
 
 ```bash
-npx super-mcp create
+npx super-mcp-cli create
 ```
 
 ## Features
@@ -18,9 +18,9 @@ npx super-mcp create
 ## Installation
 
 ```bash
-npx super-mcp create
+npx super-mcp-cli create
 # or
-npm install -g super-mcp
+npm install -g super-mcp-cli
 ```
 
 ## Commands
@@ -35,10 +35,12 @@ npm install -g super-mcp
 | `super-mcp list` | List generated servers |
 | `super-mcp test` | Test MCP server |
 
+*Run with `npx super-mcp-cli` or after `npm i -g super-mcp-cli`*
+
 ## Create Options
 
 ```bash
-# Basic
+# Basic (use npx @spandanm110/super-mcp or super-mcp if installed globally)
 super-mcp create -n stripe-expert -u https://stripe.com/docs/api
 
 # Multi-URL
